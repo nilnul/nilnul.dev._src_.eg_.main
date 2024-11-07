@@ -1,0 +1,20 @@
+<!-- in proto -->
+<configuration>
+
+	<bak>
+		<push time="220909">
+			<done>
+				amazon
+				,azure,github,gitlab
+				<!-- 
+					,visualstudio 
+				-->
+			</done>
+			<fail>
+				<remote name="">
+					<xpn>repo too large</xpn>
+				</remote>
+			</fail>
+		</push>
+	</bak>
+</configuration>
